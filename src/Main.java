@@ -9,7 +9,7 @@ public class Main {
         var isWrong = result != 4;
         System.out.printf("O resultado é 4, você errou? (%s)", isWrong);
     }*/
-
+        /*
         var scanner = new Scanner(System.in);
         System.out.println("Quantos anos você tem? ");
         var age = scanner.nextInt();
@@ -17,5 +17,20 @@ public class Main {
         var isEmancipated = scanner.nextBoolean();
         var canDrive = age >=18 ||  (isEmancipated && age >= 16);
         System.out.printf("Você pode dirigir? (%s)", canDrive);
+        */
+        System.out.printf("true  && true = %s \n", true && true);
+        System.out.printf("false && false = %s \n", false && false);
+        System.out.printf("true  && false = %s \n", true && false);
+        System.out.printf("false && false = %s \n", false && true);
+        System.out.println("======================================");
+        System.out.printf("true  || false = %s \n", true || false);
+        System.out.printf("true  || false = %s \n", true || false);
+        System.out.printf("true  || true = %s \n", true || true);
+        System.out.printf("false || true = %s \n", false || true);
+        System.out.println("======================================");
+        System.out.printf("!true  = %s \n",!true );
+        System.out.printf("!false = %s \n",!false );
+
     }
+
     }
