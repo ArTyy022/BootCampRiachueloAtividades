@@ -18,6 +18,7 @@ public class Main {
         var canDrive = age >=18 ||  (isEmancipated && age >= 16);
         System.out.printf("Você pode dirigir? (%s)", canDrive);
         */
+         /*
         System.out.printf("true  && true = %s \n", true && true);
         System.out.printf("false && false = %s \n", false && false);
         System.out.printf("true  && false = %s \n", true && false);
@@ -30,7 +31,7 @@ public class Main {
         System.out.println("======================================");
         System.out.printf("!true  = %s \n",!true );
         System.out.printf("!false = %s \n",!false );
-
+    */
     }
 
     }
